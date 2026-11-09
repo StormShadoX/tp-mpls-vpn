@@ -16,18 +16,7 @@ Ce TP s'appuie sur le TP 1 (backbone MPLS : OSPF Area 0 + LDP).
 
 ## Topologie
 
-```
-   LAN SIEGE                                                          LAN AGENCE
-  10.10.10.0/24                                                      192.168.1.0/24
-       |                                                                   |
-   +--------+ 192.168.12.0/24 +-----+ 192.168.23.0/24 +-----+ 192.168.34.0/24 +-----+ 192.168.45.0/24 +--------+
-   | SIEGE  |-----------------| SP1 |-----------------| SP2 |-----------------| SP3 |-----------------| AGENCE |
-   |  (CE)  | s1/1       s1/1 | (PE)| s1/2       s1/2 | (P) | s1/3       s1/3 | (PE)| s1/1       s1/1 |  (CE)  |
-   +--------+                 +-----+                 +-----+                 +-----+                 +--------+
-   EIGRP AS 100               Lo0 1.1.1.1/25          Lo0 2.2.2.2/25          Lo0 3.3.3.3/25          EIGRP AS 100
-
-                              |<--------- Backbone MPLS : OSPF Area 0 + LDP, BGP AS 1 --------->|
-```
+![alt text](topologie-1.png)
 
 Plan d'adressage :
 
