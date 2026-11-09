@@ -78,9 +78,8 @@ Le routeur P ne possède aucune route du Client A.
 tp-mpls-vpn/
 ├── README.md          Ce fichier
 ├── commandes.md       Toutes les commandes du TP, étape par étape
-├── configs/           Configurations des routeurs (show running-config)
 ├── captures/          Captures Wireshark (.pcap) de la liaison SP2-SP3
-├── screenshots/       Captures d'écran (tables de routage, Wireshark, traceroutes)
+├── screenshots/       Captures d'écran 
 └── gns3/              Fichier de projet GNS3 (.gns3)
 ```
 
